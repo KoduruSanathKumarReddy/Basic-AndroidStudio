@@ -3,7 +3,7 @@
 Developed: Koduru Sanath Kumar Reddy
 Registered Number: 212221240024
 ~~~
-#MainActivity.java
+# MainActivity.java
 ~~~
 package com.sanath.lifecycle;
 
@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 ~~~
-#activity_main.xml
+# activity_main.xml
 ~~~
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         />
 </RelativeLayout>
 ~~~
-#Output
+# Output
 ![](1.png)
 ![](2.png)
 ![](3.png)
@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 ![](5.png)
 ![](6.png)
 ![](7.png)
-#Result
+# Result
 
 
 

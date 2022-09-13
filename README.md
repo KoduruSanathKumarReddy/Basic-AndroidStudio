@@ -94,6 +94,7 @@ public class MainActivity extends AppCompatActivity {
 ![](6.png)
 ![](7.png)
 #Result
-~~~
+
+
+
 Therefore a program is return to develop a program to detect the various life cycles of an activity. The program is successfully executed. 
-~~~

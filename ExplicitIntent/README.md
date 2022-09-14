@@ -32,8 +32,8 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Explicit Intents”.
-Developed by:
-Registeration Number :
+Developed by:Koduru Sanath Kumar Reddy
+Registeration Number :212221240024
 */
 ```
 

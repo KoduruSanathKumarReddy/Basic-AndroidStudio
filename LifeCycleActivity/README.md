@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         />
 </RelativeLayout>
 ## OUTPUT
-![](1.png)
+![](Basic-AndroidStudio/1.png)
 ![](2.png)
 ![](3.png)
 ![](4.png)

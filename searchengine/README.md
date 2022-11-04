@@ -28,13 +28,76 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “display screen of any search engine”.
-Developed by:
-Registeration Number :
+Developed by: Koduru Sanath Kumar Reddy
+Registeration Number :212221240024
 */
 ```
+## MainActivity.java
+~~~
+package com.sanath.exp6;
+
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
+
+public class MainActivity extends AppCompatActivity {
+    AutoCompleteTextView autocomplete;
+
+    String[] arr = { "Bing","youtube","Google","Yandex","Yahoo","DuckDuckGo","Swisscows","StartPage","Gibiru"};
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        autocomplete = (AutoCompleteTextView)
+                findViewById(R.id.autoCompleteTextView1);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>
+                (this,android.R.layout.select_dialog_item, arr);
+
+        autocomplete.setThreshold(2);
+        autocomplete.setAdapter(adapter);
+    }
+}
+~~~
+## activity_main.xml
+~~~
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:padding="5dp"
+    tools:context=".MainActivity">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:hint="Search Engine"
+        android:textAlignment="center"
+        tools:ignore="UnknownId" />
+
+</RelativeLayout>
+~~~
 
 ## OUTPUT
-
+![](1.png)
+![](2.png)
+![](3.png)
+![](4.png)
 
 
 

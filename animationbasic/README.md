@@ -20,6 +20,7 @@ Program to display animation operation”.
 Developed by:Koduru Sanath Kumar Reddy  
 Registeration Number :212221240024
 */
+```
 ## MainActivity
 ~~~
 package com.sanath.exp9;
@@ -312,7 +313,7 @@ public class MainActivity extends AppCompatActivity {
         android:toYScale="0.0" />
 </set>
 ~~~
-```
+
 
 ## OUTPUT
 
